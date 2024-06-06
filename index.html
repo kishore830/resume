@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore V - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add any custom styles here */
+        /* Custom styles for the header background */
+        header {
+            background-image: url('https://wallup.net/wp-content/uploads/2019/09/1862-the-orange-sky.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Style for the header text */
+        header h1 {
+            font-size: 4rem;
+        }
+
+        /* Style for the header subtitle */
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Style for the navigation links */
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        /* Style for the about section */
+        #about {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the skills section */
+        #skills {
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the projects section */
+        #projects {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the education section */
+        #education {
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the resume section */
+        #resume {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the contact section */
+        #contact {
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the contact section heading */
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* Style for the contact cards */
+        .contact-card {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for contact cards */
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Kishore V</h1>
+            <p class="mt-2">Computer Science & Engineering Student</p>
+            <p class="mt-2">Looking forward to work!</p>
+        </div>
+    </header>
+
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-center items-center">
+            <ul class="flex">
+                <li class="ml-4"><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li class="ml-4"><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li class="ml-4"><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li class="ml-4"><a href="#education" class="hover:text-gray-300">Education</a></li>
+                <li class="ml-4"><a href="#resume" class="hover:text-gray-300">Resume</a></li>
+                <li class="ml-4"><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p class="text-lg">As a dedicated computer science student, I am passionate about learning new technologies and leveraging them to solve complex problems. My strong problem-solving skills enable me to tackle challenging issues efficiently and creatively. I have a keen interest in building innovative projects, seeing them as valuable opportunities for hands-on learning and growth. By engaging in project-based learning, I continually expand my knowledge and stay updated with the latest advancements in the tech world. My enthusiasm for technology and commitment to continuous learning drive me to excel in my studies and contribute meaningfully to any project I undertake.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#10010;</span> CSS</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#60;/&#62;</span> HTML</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#8734;</span> SQL</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#99;</span> C</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Wireless Patient Monitoring System</h3>
+                    <p class="mb-4">A Wireless Patient Monitoring System represents a significant advancement in healthcare technology, offering numerous benefits for patient care and medical efficiency. By leveraging sensors, microcontrollers, wireless communication, and cloud computing, this system enables continuous and remote monitoring of patients' vital signs, ensuring timely medical interventions and improving overall health outcomes. Addressing challenges such as data security, system reliability, and user training is essential for the successful implementation and operation of the system.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Education</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">10th Standard - Narayana School(APSSC)</h3>
+                    <p class="text-lg">GPA: 9.7</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">12th Standard - Sri Viswa Junior College</h3>
+                    <p class="text-lg">Percentage: 97.1%</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Bachelor's in Computer Science & Engineering - SRM University</h3>
+                    <p class="text-lg">Specialization: Internet of Things</p>
+                    <p class="text-lg">CGPA: 9.72</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Resume</h2>
+            <a href="https://drive.google.com/file/d/1a4jQBfndjQxDYYP0ZtLu4IjHA2Wv_jTM/view?usp=sharing" class="text-blue-500 hover:underline" target="_blank">View Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">Email</h3>
+                    <p class="mb-4">You can reach out to me via email:</p>
+                    <p class="text-lg">v61136325@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">Phone</h3>
+                    <p class="mb-4">Feel free to give me a call:</p>
+                    <p class="text-lg">8309856068</p>
+                </div>
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">LinkedIn</h3>
+                    <p class="mb-4">Connect with me on LinkedIn:</p>
+                    <a href="https://www.linkedin.com/in/vankayala-kishore-73a012223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BblNSU5mXSMiZnLlo8XK7pg%3D%3D" class="text-blue-500 hover:underline" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
